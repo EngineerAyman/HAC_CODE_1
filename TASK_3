@@ -1,0 +1,26 @@
+/*Your task is to take two numbers of int data type, two numbers of float data type as input and output their sum:*/
+
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int x =10,y=4 ;
+    float a=4.0,b=2.0 ;
+   // scanf("%d%d",&x,&y);
+   // scanf("%1f%1f",&a,&b);
+     
+  int   sum = x+y;
+  int   sub = x-y;
+  
+  printf("%d %d\n",x+y , x-y);
+  
+    float  sumd = x+y;
+    float subd = x-y;
+    printf("%.2f %.2f\n",a+b , a-b);
+  
+    return 0;
+}
