@@ -1,0 +1,32 @@
+// Learn how to implement string
+/*You have to print the character, , in the first line. Then print  in next line. In the last line print the sentence, .*/
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+char c;
+scanf("%c",&c);
+printf("%c\n",c);
+
+char s [100]="Language";
+
+printf("%s\n",s);
+
+char sen [100]="Welcome To C!!";
+
+printf("%s\n",sen);
+    
+    return 0;
+}
+
+
+/*
+Your Output (stdout)
+C
+Language
+Welcome To C!!
+*/
