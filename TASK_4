@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<string.h>
+
+enum weak {
+
+SAT,SUN=10,MON,TUS
+
+
+};
+union student {
+
+unsigned char name[16];
+unsigned int id ;
+float grade;
+};
+struct student {
+
+unsigned char name[16];
+unsigned int id ;
+float grade;
+};
+
+int main()
+{
+
+    enum weak day_1= TUS;
+    printf("%d\n", day_1);
+     printf("%u\n", sizeof(enum weak ) )  ;
+}
+    
+
+
+ union student student_1={"Ahmed"};
+ printf("%u\n", sizeof(union student ) )  ;
+  
+student_1.id=155;
+ printf("%u\n", student_1.id  )  ;
+ printf("%s\n", student_1.name  )  ;
+ printf("%f\n", student_1.grade )  ;
+
+
+
+
+};
+
+
+
